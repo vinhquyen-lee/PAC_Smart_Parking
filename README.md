@@ -68,6 +68,7 @@ Cài các thư viện:
 #### Cấu hình
 **Bước 1 — Cấu hình Server**
 Mở CMD → gõ ipconfig để lấy IPv4 (vd: 192.168.1.10).
+
 **Bước 2 — Cấu hình ESP32**
 - Mở Face_Detection_Final.ino trong Arduino IDE --> Mở file Config.h.
 - Cập nhật: 
@@ -124,3 +125,4 @@ python server_out.py
 Developed by vinhquyen-lee, nguyenducmanh-itus
 
 #
+
