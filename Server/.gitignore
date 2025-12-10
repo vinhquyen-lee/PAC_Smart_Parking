@@ -1,0 +1,28 @@
+#remove env
+myenv311/
+
+#remove pycache
+__pycache__/
+Data_Processing/__pycache__/
+Face_Recognition/__pycache__/
+License_Plate/__pycache__/
+
+#remove weights
+License_Plate/weight
+License_Plate/lp.yaml
+License_Plate/ocr.yaml
+License_Plate/yolov5su.pt
+#remove firebase .json
+Firebase/*.json
+Firebase/
+#remove redudant file
+
+check.py
+test.py
+token.pickle
+
+yolov5/
+
+functions/
+credentials.json
+firebase-debug.log
