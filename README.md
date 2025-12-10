@@ -103,7 +103,7 @@ python server_out.py
 | Lỗi Connection Refused (-1) | ESP32 không thấy Server. | 1. Kiểm tra lại IP trong `Config.h`.<br>2. Tắt Windows Firewall.<br>3. Đảm bảo máy tính và ESP32 cùng WiFi. |
 | Lỗi HTTP 404 | Sai đường dẫn API. | Server đang chạy code cũ? Hãy đảm bảo Server có các hàm `/trigger-process`. |
 | Lỗi Camera Init Failed | Lỏng dây hoặc thiếu nguồn. | Kiểm tra cáp camera, đảm bảo nguồn cấp đủ 5V/2A. |
-| Brownout Detector was triggered | Nguồn yếu. | Thay dây cáp USB xịn hơn hoặc bộ nguồn tốt hơn. |
+| Brownout Detector was triggered | Nguồn yếu. | Thay dây cáp USB mới hoặc nguồn tốt hơn. |
 
 ### Luồng Hoạt Động (Flowchart)
 
@@ -125,4 +125,5 @@ python server_out.py
 Developed by vinhquyen-lee, nguyenducmanh-itus
 
 #
+
 
